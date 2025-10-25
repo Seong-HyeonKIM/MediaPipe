@@ -1,32 +1,4 @@
-# 🎥 MediaPipe 실습 프로젝트
+# 🧠 MediaPipe 예제 모음
 
-이 저장소는 **MediaPipe**와 **OpenCV**를 활용해 다양한 영상 인식 기능을 구현한 예제 코드들을 담고 있습니다.  
-손 인식, 얼굴 인식, 인물 분리 등의 기능을 실습할 수 있습니다.
-
----
-
-## 📁 폴더 구성
-
-
----
-
-## ⚙️ 환경 설정
-
-### 1️⃣ 가상환경 생성 및 활성화
-```bash
-py -3.12 -m venv .venv
-.\.venv\Scripts\activate
-
-pip install -r requirements.txt
-
-opencv-python
-mediapipe
-
-python face_detector.py
-
-python hand_detector.py
-
-python selfie_segmentation.py
-
-
----
+이 저장소는 Google MediaPipe의 얼굴 검출, 손 검출, 셀피 분할(Selfie Segmentation) 기능을 Python으로 구현한 예제 코드를 포함하고 있습니다.  
+로컬 영상뿐만 아니라 **YouTube 영상**을 입력으로 사용하는 예제도 함께 제공합니다.
